@@ -9,9 +9,7 @@ class Contact extends Component {
         {/* pass in the consts that we got from deconstructuring */}
         <h4>{name}</h4>
         <ul className="list-group">
-          <li className="list-group-item">
-            {name}'s email: {email}
-          </li>
+          <li className="list-group-item">email: {email}</li>
           <li className="list-group-item">phone : {phone}</li>
         </ul>
       </div>

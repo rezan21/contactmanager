@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "./components/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Contact from "./components/Contact";
+import Contacts from "./components/Contacts";
 
 import "./App.css";
 
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Header branding="contact manager" />
         <div className="container">
-          <Contact name="Reza" email="Reza@gmail.com" phone="222-222-222" />
+          <Contacts />
         </div>
       </div>
     );
